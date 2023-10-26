@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSheetsConvertor", "GoogleSheetsConvertor\GoogleSheetsConvertor.csproj", "{7DAF958E-75AF-47DC-829C-3477CFBAAB6C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B7EB1E7-C9C7-4B2A-BE3E-9B05FE71EC50} = {7B7EB1E7-C9C7-4B2A-BE3E-9B05FE71EC50}
+		{C3C353A6-9D33-4F5A-9890-B8BD49A3ED50} = {C3C353A6-9D33-4F5A-9890-B8BD49A3ED50}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSheetsConvertor.Service", "GoogleSheetsConvertor.Service\GoogleSheetsConvertor.Service.csproj", "{7B7EB1E7-C9C7-4B2A-BE3E-9B05FE71EC50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSheetsConvertor.Model", "GoogleSheetsConvertor.Model\GoogleSheetsConvertor.Model.csproj", "{C3C353A6-9D33-4F5A-9890-B8BD49A3ED50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DAF958E-75AF-47DC-829C-3477CFBAAB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAF958E-75AF-47DC-829C-3477CFBAAB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAF958E-75AF-47DC-829C-3477CFBAAB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAF958E-75AF-47DC-829C-3477CFBAAB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7EB1E7-C9C7-4B2A-BE3E-9B05FE71EC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7EB1E7-C9C7-4B2A-BE3E-9B05FE71EC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7EB1E7-C9C7-4B2A-BE3E-9B05FE71EC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7EB1E7-C9C7-4B2A-BE3E-9B05FE71EC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C353A6-9D33-4F5A-9890-B8BD49A3ED50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C353A6-9D33-4F5A-9890-B8BD49A3ED50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C353A6-9D33-4F5A-9890-B8BD49A3ED50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C353A6-9D33-4F5A-9890-B8BD49A3ED50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E5551F4-730C-4EE7-A08A-6E45BADD0B44}
+	EndGlobalSection
+EndGlobal
